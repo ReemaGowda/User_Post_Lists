@@ -1,6 +1,6 @@
 // pages/index.js
 import { useEffect, useState } from 'react';
-import { fetchUsers, fetchPostsByUser ,fetchAddress } from './lib/api';
+import { fetchUsers, fetchPostsByUser } from './lib/api';
 
 const Home = () => {
   const [users, setUsers] = useState([]);
